@@ -4,6 +4,24 @@
 
 厨子迟迟不给我发货，想找个机器先黑着，没想到公司的台式机刚好能支持，虽然或多或少有些问题，但是日常使用足够了。
 
+# 机器信息
+
+**CPU**：Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+
+**GPU**：NVIDIA Corporation TU117 [GeForce GTX 1650]
+
+**网卡**：Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+
+**硬盘**：KIOXIA Corporation Device
+
+**`dmidecode -t system`信息**：
+
+```bash
+System Information
+	Manufacturer: Dell Inc.
+	Product Name: ChengMing 3991
+```
+
 ## 鸣谢
 
 此仓库基于两个EFI整合，分别如下：
@@ -66,6 +84,14 @@
 插入你的**镜像盘**，同时保持**启动盘**插上，重启电脑，修改UEFI启动顺序，确保从**启动盘**启动，即可找到安装macOS选项，然后跟着一步一步走即可安装完成。安装结束后，将**镜像盘**拔掉，即可格式化掉用作其他用途，此**启动盘**需要一直插着，以便能够引导macOS启动。
 
 然后即可正常使用~
+
+# 注意
+
+**谨慎更新，可能会有驱动不兼容的情况，做好备份再升级，提前看好changelog。**
+
+可正常使用版本：
+
+![image](./image.png)
 
 ## 可以顺便看看我的博客
 
